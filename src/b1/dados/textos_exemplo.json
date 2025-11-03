@@ -1,0 +1,98 @@
+{
+  "categories": {
+    "animals": [
+      "The cat is a very popular domestic animal",
+      "Dogs are known as man's best friend",
+      "The lion is known as the king of the jungle",
+      "Elephants have excellent memory and are very intelligent",
+      "Dolphins are very social marine mammals"
+    ],
+    "technology": [
+      "Python is a very popular programming language",
+      "Machine learning is revolutionizing artificial intelligence",
+      "Quantum computers promise to process data much faster",
+      "The internet of things connects everyday devices",
+      "Blockchain is the technology behind cryptocurrencies"
+    ],
+    "sports": [
+      "Soccer is the most popular sport in the world",
+      "Swimming is an excellent exercise for the whole body",
+      "Basketball requires coordination and teamwork",
+      "Tennis demands agility and mental strategy",
+      "Running improves cardiovascular health"
+    ],
+    "cooking": [
+      "Pizza is a world-famous Italian dish",
+      "Sushi is a specialty of Japanese cuisine",
+      "Brazilian barbecue is known for its flavorful meat",
+      "Italian pastas have hundreds of different varieties",
+      "Spices are essential for adding flavor to food"
+    ],
+    "science": [
+      "The theory of relativity was proposed by Einstein",
+      "DNA contains the genetic information of living beings",
+      "Photosynthesis converts sunlight into chemical energy",
+      "Atoms are the basic units of matter",
+      "Gravity keeps planets in orbit around the sun"
+    ]
+  },
+  "search_documents": [
+    {
+      "id": 1,
+      "title": "Introduction to Python",
+      "text": "Python is a high-level, interpreted, general-purpose programming language. It is widely used in data science and artificial intelligence."
+    },
+    {
+      "id": 2,
+      "title": "Pet Care Guide",
+      "text": "Cats and dogs need daily care including proper feeding, exercise, and regular visits to the veterinarian."
+    },
+    {
+      "id": 3,
+      "title": "History of Soccer",
+      "text": "Modern soccer originated in England in the 19th century. Today it is the most practiced and watched sport worldwide."
+    },
+    {
+      "id": 4,
+      "title": "Basic Machine Learning",
+      "text": "Machine learning allows computers to learn from data without being explicitly programmed. It uses statistical algorithms to make predictions."
+    },
+    {
+      "id": 5,
+      "title": "Traditional Italian Recipes",
+      "text": "Italian cuisine is famous for pasta, pizza, and risotto. Fresh, quality ingredients are essential for authentic dishes."
+    },
+    {
+      "id": 6,
+      "title": "Quantum Physics for Beginners",
+      "text": "Quantum physics studies the behavior of subatomic particles. It challenges our intuition about how the universe works."
+    },
+    {
+      "id": 7,
+      "title": "Benefits of Swimming",
+      "text": "Swimming is a complete exercise that works all muscle groups. It is excellent for cardiovascular health and joints."
+    },
+    {
+      "id": 8,
+      "title": "Artificial Intelligence and Society",
+      "text": "Artificial intelligence is transforming various sectors of society, from medicine to autonomous transportation."
+    },
+    {
+      "id": 9,
+      "title": "Animal Behavior",
+      "text": "Studying animal behavior helps us better understand evolution and species adaptations to the environment."
+    },
+    {
+      "id": 10,
+      "title": "Physical Training",
+      "text": "A balanced training program should include aerobic exercises, strength training, and flexibility for complete health."
+    }
+  ],
+  "example_queries": [
+    "How to program in modern languages?",
+    "Which animals make good pets?",
+    "Exercises to improve health",
+    "Traditional Italian food",
+    "How does modern science work?"
+  ]
+}

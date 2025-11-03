@@ -1,0 +1,16 @@
+[project]
+name = "embeddings-busca-semantica"
+version = "0.1.0"
+description = "Mini projeto didático sobre Embeddings e Busca Semântica - Bloco A"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3.0",
+    "pandas>=2.3.0",
+    "matplotlib>=3.10.0",
+    "scikit-learn>=1.7.0",
+    "torch>=2.5.0",
+    "sentence-transformers>=5.1.0",
+    "jupyter>=1.1.0",
+    "notebook>=7.0.0",
+]
