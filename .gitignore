@@ -1,0 +1,15 @@
+notes.md
+
+node_modules
+dist
+.env
+.DS_Store
+.vscode
+.idea
+*.log
+*.tmp
+coverage
+build
+*.bak
+*.swp
+*.class
