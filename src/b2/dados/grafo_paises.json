@@ -1,0 +1,208 @@
+{
+  "entidades": [
+    {
+      "id": "franca",
+      "tipo": "pais",
+      "nome": "França",
+      "propriedades": {
+        "populacao": 68000000,
+        "area_km2": 643801,
+        "continente": "Europa",
+        "idioma_oficial": "Francês",
+        "moeda": "Euro"
+      }
+    },
+    {
+      "id": "paris",
+      "tipo": "cidade",
+      "nome": "Paris",
+      "propriedades": {
+        "populacao": 2100000,
+        "area_km2": 105,
+        "fundacao": "ano 250 a.C."
+      }
+    },
+    {
+      "id": "brasil",
+      "tipo": "pais",
+      "nome": "Brasil",
+      "propriedades": {
+        "populacao": 215000000,
+        "area_km2": 8515767,
+        "continente": "América do Sul",
+        "idioma_oficial": "Português",
+        "moeda": "Real"
+      }
+    },
+    {
+      "id": "brasilia",
+      "tipo": "cidade",
+      "nome": "Brasília",
+      "propriedades": {
+        "populacao": 3100000,
+        "area_km2": 5802,
+        "fundacao": "ano 1960"
+      }
+    },
+    {
+      "id": "rio_janeiro",
+      "tipo": "cidade",
+      "nome": "Rio de Janeiro",
+      "propriedades": {
+        "populacao": 6748000,
+        "area_km2": 1200,
+        "fundacao": "ano 1565"
+      }
+    },
+    {
+      "id": "europa",
+      "tipo": "continente",
+      "nome": "Europa",
+      "propriedades": {
+        "area_km2": 10180000,
+        "num_paises": 50
+      }
+    },
+    {
+      "id": "america_sul",
+      "tipo": "continente",
+      "nome": "América do Sul",
+      "propriedades": {
+        "area_km2": 17840000,
+        "num_paises": 12
+      }
+    },
+    {
+      "id": "alemanha",
+      "tipo": "pais",
+      "nome": "Alemanha",
+      "propriedades": {
+        "populacao": 84000000,
+        "area_km2": 357386,
+        "continente": "Europa",
+        "idioma_oficial": "Alemão",
+        "moeda": "Euro"
+      }
+    },
+    {
+      "id": "berlim",
+      "tipo": "cidade",
+      "nome": "Berlim",
+      "propriedades": {
+        "populacao": 3645000,
+        "area_km2": 891,
+        "fundacao": "ano 1237"
+      }
+    },
+    {
+      "id": "torre_eiffel",
+      "tipo": "monumento",
+      "nome": "Torre Eiffel",
+      "propriedades": {
+        "altura_metros": 330,
+        "ano_construcao": 1889,
+        "material": "ferro",
+        "visitantes_ano": 7000000
+      }
+    },
+    {
+      "id": "cristo_redentor",
+      "tipo": "monumento",
+      "nome": "Cristo Redentor",
+      "propriedades": {
+        "altura_metros": 38,
+        "ano_construcao": 1931,
+        "material": "concreto e pedra-sabão",
+        "visitantes_ano": 2000000
+      }
+    },
+    {
+      "id": "louvre",
+      "tipo": "museu",
+      "nome": "Museu do Louvre",
+      "propriedades": {
+        "ano_fundacao": 1793,
+        "area_m2": 72735,
+        "num_obras": 380000,
+        "visitantes_ano": 10000000
+      }
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "paris",
+      "tipo": "capital_de",
+      "destino": "franca"
+    },
+    {
+      "origem": "brasilia",
+      "tipo": "capital_de",
+      "destino": "brasil"
+    },
+    {
+      "origem": "berlim",
+      "tipo": "capital_de",
+      "destino": "alemanha"
+    },
+    {
+      "origem": "franca",
+      "tipo": "localizado_em",
+      "destino": "europa"
+    },
+    {
+      "origem": "alemanha",
+      "tipo": "localizado_em",
+      "destino": "europa"
+    },
+    {
+      "origem": "brasil",
+      "tipo": "localizado_em",
+      "destino": "america_sul"
+    },
+    {
+      "origem": "paris",
+      "tipo": "localizado_em",
+      "destino": "franca"
+    },
+    {
+      "origem": "rio_janeiro",
+      "tipo": "localizado_em",
+      "destino": "brasil"
+    },
+    {
+      "origem": "brasilia",
+      "tipo": "localizado_em",
+      "destino": "brasil"
+    },
+    {
+      "origem": "berlim",
+      "tipo": "localizado_em",
+      "destino": "alemanha"
+    },
+    {
+      "origem": "torre_eiffel",
+      "tipo": "localizado_em",
+      "destino": "paris"
+    },
+    {
+      "origem": "louvre",
+      "tipo": "localizado_em",
+      "destino": "paris"
+    },
+    {
+      "origem": "cristo_redentor",
+      "tipo": "localizado_em",
+      "destino": "rio_janeiro"
+    },
+    {
+      "origem": "franca",
+      "tipo": "vizinho_de",
+      "destino": "alemanha"
+    },
+    {
+      "origem": "alemanha",
+      "tipo": "vizinho_de",
+      "destino": "franca"
+    }
+  ]
+}

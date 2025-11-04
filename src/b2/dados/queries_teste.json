@@ -1,0 +1,124 @@
+{
+  "queries": [
+    {
+      "id": "q001",
+      "query": "Qual é a capital da França?",
+      "documentos_relevantes": ["doc_001", "doc_004"],
+      "descricao": "Busca por informações sobre Paris como capital"
+    },
+    {
+      "id": "q002",
+      "query": "Monumentos famosos de Paris",
+      "documentos_relevantes": ["doc_003", "doc_008", "doc_011"],
+      "descricao": "Busca por pontos turísticos parisienses"
+    },
+    {
+      "id": "q003",
+      "query": "Temperatura e clima no Brasil",
+      "documentos_relevantes": ["doc_002", "doc_005"],
+      "descricao": "Busca por informações climáticas brasileiras"
+    },
+    {
+      "id": "q004",
+      "query": "Quantos habitantes tem Paris?",
+      "documentos_relevantes": ["doc_001", "doc_004"],
+      "descricao": "Busca por dados demográficos de Paris"
+    },
+    {
+      "id": "q005",
+      "query": "Floresta Amazônica e biodiversidade",
+      "documentos_relevantes": ["doc_005", "doc_014"],
+      "descricao": "Busca por informações sobre natureza brasileira"
+    },
+    {
+      "id": "q006",
+      "query": "Comida típica francesa",
+      "documentos_relevantes": ["doc_006"],
+      "descricao": "Busca por culinária francesa"
+    },
+    {
+      "id": "q007",
+      "query": "Praias e turismo no Rio de Janeiro",
+      "documentos_relevantes": ["doc_007", "doc_016"],
+      "descricao": "Busca por praias brasileiras"
+    },
+    {
+      "id": "q008",
+      "query": "Onde fica a Mona Lisa?",
+      "documentos_relevantes": ["doc_008"],
+      "descricao": "Busca por museus e arte em Paris"
+    },
+    {
+      "id": "q009",
+      "query": "Esportes populares no Brasil",
+      "documentos_relevantes": ["doc_009"],
+      "descricao": "Busca por futebol brasileiro"
+    },
+    {
+      "id": "q010",
+      "query": "Quando é verão na Europa?",
+      "documentos_relevantes": ["doc_010"],
+      "descricao": "Busca por clima europeu"
+    },
+    {
+      "id": "q011",
+      "query": "Festas tradicionais do Brasil",
+      "documentos_relevantes": ["doc_012"],
+      "descricao": "Busca por Carnaval e cultura"
+    },
+    {
+      "id": "q012",
+      "query": "Torre Eiffel altura e construção",
+      "documentos_relevantes": ["doc_003"],
+      "descricao": "Busca específica sobre Torre Eiffel"
+    },
+    {
+      "id": "q013",
+      "query": "Idiomas falados na França",
+      "documentos_relevantes": ["doc_015"],
+      "descricao": "Busca por língua francesa"
+    },
+    {
+      "id": "q014",
+      "query": "Exportações brasileiras",
+      "documentos_relevantes": ["doc_018"],
+      "descricao": "Busca por economia do Brasil"
+    },
+    {
+      "id": "q015",
+      "query": "Como se locomover em Paris?",
+      "documentos_relevantes": ["doc_019"],
+      "descricao": "Busca por transporte público"
+    },
+    {
+      "id": "q016",
+      "query": "Samba e música brasileira",
+      "documentos_relevantes": ["doc_020", "doc_012"],
+      "descricao": "Busca por música e cultura brasileira"
+    },
+    {
+      "id": "q017",
+      "query": "Revolução de 1789",
+      "documentos_relevantes": ["doc_017"],
+      "descricao": "Busca por história francesa"
+    },
+    {
+      "id": "q018",
+      "query": "Estilo arquitetônico de Paris",
+      "documentos_relevantes": ["doc_011"],
+      "descricao": "Busca por arquitetura parisiense"
+    },
+    {
+      "id": "q019",
+      "query": "Biomas do Brasil",
+      "documentos_relevantes": ["doc_014", "doc_005"],
+      "descricao": "Busca por diversidade natural"
+    },
+    {
+      "id": "q020",
+      "query": "População da França e Europa",
+      "documentos_relevantes": ["doc_004"],
+      "descricao": "Busca por demografia francesa"
+    }
+  ]
+}

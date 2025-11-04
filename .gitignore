@@ -6,6 +6,7 @@ dist
 .DS_Store
 .vscode
 .idea
+.claude
 *.log
 *.tmp
 coverage
@@ -13,3 +14,22 @@ build
 *.bak
 *.swp
 *.class
+
+# ChromaDB persistent storage
+src/b2/chroma_db/
+*.sqlite3
+*.bin
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Visualization outputs (can be regenerated)
+src/b1/visualizacoes/*.png
+src/b2/visualizacoes/*.png

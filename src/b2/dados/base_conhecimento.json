@@ -1,0 +1,144 @@
+{
+  "documentos": [
+    {
+      "id": "doc_001",
+      "titulo": "Paris - A Cidade Luz",
+      "conteudo": "Paris é a capital da França e uma das cidades mais visitadas do mundo. Conhecida como a Cidade Luz, Paris abriga monumentos icônicos como a Torre Eiffel, o Museu do Louvre e a Catedral de Notre-Dame. A cidade tem uma população de aproximadamente 2,1 milhões de habitantes.",
+      "categoria": "geografia",
+      "tags": ["frança", "europa", "capital", "turismo"]
+    },
+    {
+      "id": "doc_002",
+      "titulo": "Clima Tropical do Brasil",
+      "conteudo": "O Brasil possui predominantemente clima tropical, com temperaturas elevadas durante todo o ano. As regiões Norte e Nordeste apresentam as temperaturas mais altas, com médias anuais acima de 25°C. A Amazônia tem clima equatorial úmido, com chuvas abundantes.",
+      "categoria": "clima",
+      "tags": ["brasil", "clima", "tropical", "temperatura"]
+    },
+    {
+      "id": "doc_003",
+      "titulo": "Torre Eiffel - Símbolo de Paris",
+      "conteudo": "A Torre Eiffel é uma torre de ferro construída em 1889 para a Exposição Universal de Paris. Com 330 metros de altura, é o monumento pago mais visitado do mundo. Foi projetada por Gustave Eiffel e inicialmente era temporária, mas tornou-se símbolo permanente da cidade.",
+      "categoria": "monumentos",
+      "tags": ["paris", "frança", "arquitetura", "turismo"]
+    },
+    {
+      "id": "doc_004",
+      "titulo": "População da França",
+      "conteudo": "A França tem aproximadamente 68 milhões de habitantes, sendo um dos países mais populosos da União Europeia. A capital Paris concentra cerca de 2,1 milhões de pessoas, enquanto a região metropolitana de Paris abriga mais de 12 milhões de habitantes.",
+      "categoria": "demografia",
+      "tags": ["frança", "população", "europa", "demografia"]
+    },
+    {
+      "id": "doc_005",
+      "titulo": "Amazônia - Maior Floresta Tropical",
+      "conteudo": "A Floresta Amazônica é a maior floresta tropical do mundo, abrangendo territórios de nove países sul-americanos, sendo o Brasil o que possui a maior parte. A região amazônica é conhecida por sua biodiversidade única e papel crucial no equilíbrio climático global.",
+      "categoria": "natureza",
+      "tags": ["brasil", "amazônia", "floresta", "biodiversidade"]
+    },
+    {
+      "id": "doc_006",
+      "titulo": "Culinária Francesa",
+      "conteudo": "A culinária francesa é considerada uma das mais refinadas do mundo. Pratos típicos incluem croissants, baguetes, queijos variados, escargots e vinhos de alta qualidade. A gastronomia francesa foi declarada Patrimônio Cultural Imaterial da Humanidade pela UNESCO.",
+      "categoria": "cultura",
+      "tags": ["frança", "culinária", "gastronomia", "cultura"]
+    },
+    {
+      "id": "doc_007",
+      "titulo": "Rio de Janeiro - Cidade Maravilhosa",
+      "conteudo": "O Rio de Janeiro é uma das cidades mais famosas do Brasil, conhecida por suas praias como Copacabana e Ipanema, o Cristo Redentor e o Pão de Açúcar. A cidade foi capital do Brasil até 1960 e sedia eventos importantes como o Carnaval carioca.",
+      "categoria": "geografia",
+      "tags": ["brasil", "rio de janeiro", "turismo", "praias"]
+    },
+    {
+      "id": "doc_008",
+      "titulo": "Museu do Louvre",
+      "conteudo": "O Museu do Louvre é o maior museu de arte do mundo e um monumento histórico em Paris. Abriga mais de 380 mil objetos e exibe 35 mil obras de arte, incluindo a Mona Lisa de Leonardo da Vinci e a Vênus de Milo. Recebe cerca de 10 milhões de visitantes por ano.",
+      "categoria": "cultura",
+      "tags": ["paris", "museu", "arte", "cultura"]
+    },
+    {
+      "id": "doc_009",
+      "titulo": "Futebol no Brasil",
+      "conteudo": "O futebol é o esporte mais popular do Brasil. A seleção brasileira é a única que participou de todas as Copas do Mundo e é a que mais conquistou títulos, com cinco campeonatos mundiais. Jogadores brasileiros como Pelé, Ronaldo e Neymar são conhecidos mundialmente.",
+      "categoria": "esportes",
+      "tags": ["brasil", "futebol", "esporte", "copa do mundo"]
+    },
+    {
+      "id": "doc_010",
+      "titulo": "Verão Europeu",
+      "conteudo": "O verão na Europa, especialmente em países como França, Espanha e Itália, ocorre entre junho e setembro. As temperaturas podem atingir 30°C ou mais nas regiões mediterrâneas. É a alta temporada turística, com milhões de visitantes explorando cidades históricas e praias.",
+      "categoria": "clima",
+      "tags": ["europa", "clima", "verão", "turismo"]
+    },
+    {
+      "id": "doc_011",
+      "titulo": "Arquitetura Parisiense",
+      "conteudo": "Paris é famosa por sua arquitetura única, que mistura estilos clássicos e modernos. Os edifícios haussmanianos do século XIX dominam o centro da cidade, com suas fachadas de pedra, sacadas de ferro forjado e telhados de ardósia. Monumentos como o Arco do Triunfo exemplificam o estilo neoclássico.",
+      "categoria": "arquitetura",
+      "tags": ["paris", "arquitetura", "haussmann", "história"]
+    },
+    {
+      "id": "doc_012",
+      "titulo": "Carnaval Brasileiro",
+      "conteudo": "O Carnaval é a festa mais popular do Brasil, celebrada em todo o país antes da Quaresma. O Carnaval do Rio de Janeiro é mundialmente famoso pelos desfiles das escolas de samba no Sambódromo. Outras cidades como Salvador e Recife também têm tradições carnavalescas únicas.",
+      "categoria": "cultura",
+      "tags": ["brasil", "carnaval", "festa", "tradição"]
+    },
+    {
+      "id": "doc_013",
+      "titulo": "Sistema Métrico Francês",
+      "conteudo": "O sistema métrico decimal foi criado na França durante a Revolução Francesa em 1795. Este sistema de medidas, baseado no metro e no quilograma, é hoje utilizado como padrão internacional em quase todos os países do mundo, facilitando o comércio e a ciência.",
+      "categoria": "ciencia",
+      "tags": ["frança", "ciência", "medidas", "história"]
+    },
+    {
+      "id": "doc_014",
+      "titulo": "Biodiversidade Brasileira",
+      "conteudo": "O Brasil é o país com a maior biodiversidade do planeta, abrigando entre 15% e 20% de todas as espécies conhecidas. Possui seis biomas principais: Amazônia, Cerrado, Mata Atlântica, Caatinga, Pampa e Pantanal. Essa riqueza natural é fundamental para o equilíbrio ecológico global.",
+      "categoria": "natureza",
+      "tags": ["brasil", "biodiversidade", "natureza", "biomas"]
+    },
+    {
+      "id": "doc_015",
+      "titulo": "Língua Francesa",
+      "conteudo": "O francês é uma língua romance falada por cerca de 300 milhões de pessoas em todo o mundo. É língua oficial em 29 países e uma das línguas oficiais da ONU, UNESCO e outras organizações internacionais. A França criou a Académie Française em 1635 para preservar a pureza da língua.",
+      "categoria": "idiomas",
+      "tags": ["frança", "idioma", "língua", "francofonia"]
+    },
+    {
+      "id": "doc_016",
+      "titulo": "Praias do Brasil",
+      "conteudo": "O Brasil possui uma costa de mais de 7.400 km com praias paradisíacas. Desde as praias urbanas como Copacabana no Rio de Janeiro até praias selvagens no Nordeste como Fernando de Noronha e Jericoacoara, o país oferece opções para todos os gostos. As águas mornas do litoral nordestino atraem turistas o ano todo.",
+      "categoria": "geografia",
+      "tags": ["brasil", "praias", "litoral", "turismo"]
+    },
+    {
+      "id": "doc_017",
+      "titulo": "Revolução Francesa",
+      "conteudo": "A Revolução Francesa, que começou em 1789, foi um período de transformação radical na França. Marcou o fim do absolutismo monárquico e estabeleceu ideais de liberdade, igualdade e fraternidade. Teve impacto profundo não só na França, mas em toda a Europa e no mundo.",
+      "categoria": "historia",
+      "tags": ["frança", "história", "revolução", "política"]
+    },
+    {
+      "id": "doc_018",
+      "titulo": "Economia do Brasil",
+      "conteudo": "O Brasil possui a maior economia da América Latina e a nona maior do mundo. O país é um grande produtor e exportador de commodities como soja, minério de ferro, petróleo e carne. O setor de serviços representa cerca de 70% do PIB brasileiro.",
+      "categoria": "economia",
+      "tags": ["brasil", "economia", "exportação", "pib"]
+    },
+    {
+      "id": "doc_019",
+      "titulo": "Metrô de Paris",
+      "conteudo": "O metrô de Paris é um dos sistemas de transporte público mais antigos e extensos do mundo. Inaugurado em 1900, possui atualmente 16 linhas e mais de 300 estações. Transporta cerca de 5 milhões de passageiros por dia, sendo essencial para a mobilidade na capital francesa.",
+      "categoria": "transporte",
+      "tags": ["paris", "transporte", "metrô", "mobilidade"]
+    },
+    {
+      "id": "doc_020",
+      "titulo": "Música Brasileira",
+      "conteudo": "A música brasileira é extremamente diversa, refletindo as múltiplas influências culturais do país. Estilos como samba, bossa nova, forró, MPB e sertanejo são populares em todo o território nacional. Artistas como Tom Jobim, João Gilberto e Carmen Miranda ganharam reconhecimento internacional.",
+      "categoria": "cultura",
+      "tags": ["brasil", "música", "cultura", "samba"]
+    }
+  ]
+}

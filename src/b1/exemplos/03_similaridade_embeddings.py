@@ -16,13 +16,13 @@ with embeddings and compares their characteristics and use cases.
 """
 
 import json
-import numpy as np
-import matplotlib.pyplot as plt
 from pathlib import Path
+import matplotlib.pyplot as plt
+import numpy as np
 from sentence_transformers import SentenceTransformer
+from sklearn.decomposition import PCA
 from sklearn.metrics import euclidean_distances
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.decomposition import PCA
 
 
 def load_texts():
@@ -185,7 +185,8 @@ def main():
     print()
 
     # Normalize embeddings for fair comparison
-    embeddings_norm = embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
+    embeddings_norm = embeddings / \
+        np.linalg.norm(embeddings, axis=1, keepdims=True)
 
     print("Vector norms (lengths):")
     for i in range(len(embeddings)):
@@ -215,21 +216,23 @@ def main():
     print("Reducing 384 dimensions to 2D for visualization...")
     pca = PCA(n_components=2)
     embeddings_2d = pca.fit_transform(embeddings)
-    print(f"[OK] Explained variance: {sum(pca.explained_variance_ratio_)*100:.2f}%")
+    print(
+        f"[OK] Explained variance: {sum(pca.explained_variance_ratio_)*100:.2f}%")
     print()
 
     # Create visualization
     plt.figure(figsize=(10, 8))
 
     colors = ['red', 'red', 'blue', 'green', 'green']
-    labels_viz = ['Cat/Couch', 'Feline/Sofa', 'Dog/Garden', 'Python lang', 'ML/Neural']
+    labels_viz = ['Cat/Couch', 'Feline/Sofa',
+                  'Dog/Garden', 'Python lang', 'ML/Neural']
 
     for i, (x, y) in enumerate(embeddings_2d):
         plt.scatter(x, y, c=colors[i], s=200, alpha=0.6)
         plt.annotate(f'{i}: {labels_viz[i]}', (x, y),
-                    xytext=(10, 10), textcoords='offset points',
-                    fontsize=9, bbox=dict(boxstyle='round,pad=0.5',
-                    facecolor=colors[i], alpha=0.3))
+                     xytext=(10, 10), textcoords='offset points',
+                     fontsize=9, bbox=dict(boxstyle='round,pad=0.5',
+                                           facecolor=colors[i], alpha=0.3))
 
     plt.xlabel('First Principal Component')
     plt.ylabel('Second Principal Component')
@@ -238,7 +241,8 @@ def main():
     plt.axhline(y=0, color='k', linestyle='-', alpha=0.3)
     plt.axvline(x=0, color='k', linestyle='-', alpha=0.3)
 
-    output_path = Path(__file__).parent.parent / "visualizacoes" / "similarity_2d.png"
+    output_path = Path(__file__).parent.parent / \
+        "visualizacoes" / "similarity_2d.png"
     output_path.parent.mkdir(exist_ok=True)
     plt.tight_layout()
     plt.savefig(output_path, dpi=150)
