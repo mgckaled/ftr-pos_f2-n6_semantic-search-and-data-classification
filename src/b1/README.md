@@ -1,3 +1,5 @@
+<!--markdownlint-disable-->
+
 # Block A: Embeddings and Semantic Search
 
 ## Mini Educational Project - Python with UV

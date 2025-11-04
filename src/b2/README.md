@@ -1,3 +1,5 @@
+<!--markdownlint-disable-->
+
 # Block B: Semantic Search
 
 ## Mini Educational Project - Python with Pipenv
