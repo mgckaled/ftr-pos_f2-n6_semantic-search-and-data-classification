@@ -180,13 +180,8 @@ def main():
 
     # Verificar se já existe modelo treinado
     if config.FINETUNED_MODEL_PATH.exists():
-        print("\n  Modelo previamente treinado encontrado. Deseja carregar?")
-        print("  1 - Carregar modelo existente")
-        print("  2 - Treinar novo modelo")
-
-        # Para execução automática, sempre treinar novo modelo
-        # Em produção, você pode adicionar input() aqui
-        choice = "2"  # Altere para "1" se quiser carregar modelo existente
+        print("\n  ✓ Modelo previamente treinado encontrado! Carregando...")
+        choice = "1"  # Carregar modelo existente (mude para "2" para re-treinar)
 
         if choice == "1":
             finetuned_clf.load_model()

@@ -1,3 +1,5 @@
+<!--markdownlint-disable-->
+
 # Classificação de Texto com IA - Bloco C
 
 Mini-projeto educacional comparando **3 abordagens de classificação** com IA:

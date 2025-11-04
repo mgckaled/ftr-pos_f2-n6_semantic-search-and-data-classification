@@ -54,9 +54,9 @@ EVAL_STEPS = 500
 
 # Abordagem 3: LLM
 LLM_MODEL_NAME = "gemini-2.0-flash-exp"  # Modelo mais recente e gratuito
-LLM_BATCH_SIZE = 10  # Processar em lotes para respeitar rate limits
+LLM_BATCH_SIZE = 5  # Processar em lotes para respeitar rate limits (10 req/min)
 LLM_MAX_RETRIES = 3
-LLM_RETRY_DELAY = 2  # segundos
+LLM_RETRY_DELAY = 7  # segundos (aumentado para evitar rate limit)
 
 # API Keys (carregadas de variáveis de ambiente)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")

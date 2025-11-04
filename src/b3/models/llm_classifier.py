@@ -154,9 +154,12 @@ Responda apenas com o nome da categoria, sem explicações adicionais."""
                 prediction = self._predict_with_retry(prompt)
                 predictions.append(prediction)
 
-            # Pequeno delay entre lotes para respeitar rate limits
+                # Pequeno delay entre requisições individuais (evitar burst)
+                time.sleep(1)
+
+            # Delay entre lotes para respeitar rate limits (10 req/min = 1 req a cada 6s)
             if i + batch_size < len(texts):
-                time.sleep(0.5)
+                time.sleep(30)  # Aguardar 30s entre batches de 5 requisições
 
         return np.array(predictions)
 
