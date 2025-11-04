@@ -22,6 +22,10 @@ seaborn = "*"
 python-dotenv = "*"
 accelerate = "*"
 urllib3 = ">=2.5.0"
+pillow = "*"
+tqdm = "*"
+kagglehub = "*"
+google-generativeai = "*"
 
 [dev-packages]
 

@@ -41,3 +41,8 @@ src/b3/models/embedding_classifier/
 src/b3/**/*.pkl
 .ipynb_checkpoints/
 *.ipynb_checkpoints
+
+# Project1: Cat-Dog Classification (cache, datasets, pickles)
+src/project1/cache/
+src/project1/images/
+src/project1/**/*.pkl
