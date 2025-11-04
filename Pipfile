@@ -15,6 +15,13 @@ notebook = "*"
 joblib = "*"
 chromadb = "*"
 networkx = "*"
+transformers = "*"
+google-genai = "*"
+datasets = "*"
+seaborn = "*"
+python-dotenv = "*"
+accelerate = "*"
+urllib3 = ">=2.5.0"
 
 [dev-packages]
 

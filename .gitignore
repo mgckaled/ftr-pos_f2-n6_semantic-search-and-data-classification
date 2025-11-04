@@ -33,3 +33,11 @@ env/
 # Visualization outputs (can be regenerated)
 src/b1/visualizacoes/*.png
 src/b2/visualizacoes/*.png
+
+# Block B3: Classification models and results (can be regenerated)
+src/b3/results/
+src/b3/models/finetuned_classifier/
+src/b3/models/embedding_classifier/
+src/b3/**/*.pkl
+.ipynb_checkpoints/
+*.ipynb_checkpoints
