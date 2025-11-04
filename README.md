@@ -8,7 +8,7 @@
 
 ## Sobre
 
-Repositório pessoal de registro, referência e suporte para fins de aprendizado, consulta e acompanhamento da disciplina de **Busca Semântica e Classificação de Dados** (Níível 2), Fase 2 (**Estratégia e Inovação**), do curso de Pós-Graduação *Tech Developer 360*, desenvolvido pela Faculdade de Tecnologia Rocketseat (FTR).
+Repositório pessoal de registro, referência e suporte para fins de aprendizado, consulta e acompanhamento da disciplina de **Busca Semântica e Classificação de Dados** (Nível 6), Fase 2 (**Estratégia e Inovação**), do curso de Pós-Graduação *Tech Developer 360*, desenvolvido pela Faculdade de Tecnologia Rocketseat (FTR).
 
 >[!NOTE]
 > [Questionário Avaliativo](./.github/docs/content/assessments/q.md)
