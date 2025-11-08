@@ -46,3 +46,8 @@ src/b3/**/*.pkl
 src/project1/cache/
 src/project1/images/
 src/project1/**/*.pkl
+
+# Project2: Movie Recommendation System (cache, results, pickles)
+src/project2/cache/
+src/project2/results/
+src/project2/**/*.pkl

@@ -26,6 +26,7 @@ pillow = "*"
 tqdm = "*"
 kagglehub = "*"
 google-generativeai = "*"
+ipywidgets = "*"
 
 [dev-packages]
 
